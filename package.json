@@ -1,0 +1,50 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "^51.0.0",
+    "expo-cli": "^6.3.10",
+    "expo-mail-composer": "~13.0.1",
+    "expo-print": "~13.0.1",
+    "expo-updates": "~0.25.27",
+    "global": "^4.4.0",
+    "lodash": "^4.17.15",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-confirmation-code-field": "^5.1.0",
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-keyboard-aware-scroll-view": "^0.8.0",
+    "react-native-keyboard-spacer": "^0.4.1",
+    "react-native-segmented-control-tab": "^3.4.1",
+    "react-native-web": "~0.19.10",
+    "react-navigation": "^3.11.1",
+    "react-redux": "7.0.3",
+    "redux": "^4.0.4",
+    "redux-form": "^8.2.5",
+    "redux-persist": "^5.10.0",
+    "redux-promise-middleware": "^6.1.1",
+    "redux-thunk": "^2.3.0",
+    "sentry-expo": "~7.0.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "babel-preset-expo": "~11.0.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "17.1.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "redux-logger": "^3.0.6"
+  },
+  "private": true
+}

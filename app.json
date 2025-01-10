@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Andys Alleys",
+    "slug": "andys-alleys",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "primaryColor": "#432534",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 100,
+      "package": "com.hyfertech.andysalleys",
+      "permissions": []
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "jyaasa-technologies-el",
+            "project": "andys-alleys",
+            "authToken": "343f594766d7445f9d85ef4de670e069061a07c155d8480c8bb76d9269f0a0e3"
+          }
+        }
+      ]
+    }
+  }
+}
